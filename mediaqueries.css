@@ -1,3 +1,32 @@
+@media screen and (max-width: 1800px){
+    
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+
+    #projects {
+        margin-top: 20rem;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    #experience {
+        margin-top: 10rem;
+    }
+
+    .details-container {
+        margin-bottom: 2rem;
+    }
+
+    .about-containers{
+        display: flex;
+        
+    }
+}
+
 @media screen and (max-width: 1200px) { 
     #desktop-nav {
         display: none;
@@ -6,13 +35,24 @@
         display: flex;
     }
 
-    #experience, .experience-details-container {
+    #projects {
+        margin-top: 100rem;
+    }
 
+    #experience, .experience-details-container {
         margin-top: 9rem;
     }
 
     #profile, .section-container {
         display: block;
+    }
+
+    .about-containers {
+        margin-bottom: 1rem;
+    }
+
+    .details-container {
+        margin-bottom: 1rem;
     }
 
 
@@ -39,26 +79,7 @@
     }
 }
 
-@media screen and (max-width: 1400px){
-    #profile{
-        height: 83vh;
-        margin-bottom: 6rem;
-    }
 
-    .arrow{
-        display: none;
-    }
-
-    #experience {
-        margin-top: 12rem;
-    }
-
-
-    .about-containers{
-        display: flex;
-        
-    }
-}
 
 @media screen and (max-width: 600px) { 
 
@@ -72,11 +93,11 @@
     }
 
     #experience {
-        margin-top: 48rem;
+        margin-top: 8rem;
     }
 
     #projects {
-        margin-top: 48rem;
+        margin-top: 100rem;
     }
 
     #contact {
@@ -90,6 +111,16 @@
     footer nav {
         height: fit-content;
         margin-bottom: 2rem;
+    }
+
+    .about-containers {
+        justify-content: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .details-container {
+        margin-bottom: 1rem;
     }
 
     .about-containers, .contact-info-upper-container, .btn-container {
