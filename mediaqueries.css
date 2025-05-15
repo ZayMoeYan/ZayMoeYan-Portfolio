@@ -36,7 +36,7 @@
     }
 
     #projects {
-        margin-top: 100rem;
+        margin-top: 30rem;
     }
 
     #experience, .experience-details-container {
@@ -53,6 +53,12 @@
 
     .details-container {
         margin-bottom: 1rem;
+    }
+
+    .projects-container {
+        width: 50rem;
+        margin: auto;
+        /*border: 1px solid black;*/
     }
 
 
@@ -97,11 +103,11 @@
     }
 
     #projects {
-        margin-top: 100rem;
+        margin-top: 70rem;
     }
 
     #contact {
-        margin-top: 64rem;
+        margin-top: 10rem;
     }
 
     article {
@@ -125,6 +131,11 @@
 
     .about-containers, .contact-info-upper-container, .btn-container {
         flex-wrap: wrap;
+    }
+
+    .projects-container {
+        width: 23rem;
+        margin: auto;
     }
 
     .contact-info-container {
